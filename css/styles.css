@@ -28,7 +28,7 @@ header {
     align-items: center;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
@@ -37,19 +37,18 @@ a {
     color: unset;
 }
 
-
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-nav h1{
+nav h1 {
     font-size: 24px;
     font-weight: 700;
 }
 
-nav a{
+nav a {
     font-size: 12px;
     font-weight: 400;
 }
@@ -59,11 +58,11 @@ nav a{
     align-items: center;
 }
 
-.link-container img{
+.link-container img {
     margin-right: 10px;
 }
 
-.card-movies{
+.card-movies {
     width: 250px;
     /* height: 400px; */
 }
@@ -90,7 +89,7 @@ nav a{
 }
 
 .card-movies-description h3 {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
     margin-bottom: 25px;
     text-align: center;
@@ -137,40 +136,40 @@ nav a{
     justify-content: space-between;
 }
 
-.movies-form-group{
+.movies-form-group {
     margin: 20px;
 
 }
 
-.movies-form-group label{
+.movies-form-group label {
     font-size: 12px;
     color: var(--text-form);
 }
 
-.card-score-description h3{
+.card-score-description h3 {
     font-size: 14px;
     font-weight: 700;
     margin-bottom: 20px;
 }
 
-.movies-card-description-star{
+.movies-card-description-star {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.movies-card-description h4{
+.movies-card-description h4 {
     font-size: 16px;
     font-weight: 700;
     color: var(--start-yellow);
 }
 
-.movies-card-description-star img{
+.movies-card-description-star img {
     width: 22px;
     margin-bottom: 10px;
 }
 
-.movies-card-description-star p{
+.movies-card-description-star p {
     font-size: 12px;
     font-weight: 400;
     color: var(--text-form);
@@ -190,14 +189,14 @@ nav a{
     align-items: center;
 }
 
-.movies-pagination-box p{
+.movies-pagination-box p {
     margin: 0;
     font-size: 12px;
     font-weight: 400;
     color: var(--text-color);
 }
 
-.movies-pagination-box button{
+.movies-pagination-box button {
     width: 40px;
     height: 40px;
     border: 2px solid var(--text-color);
